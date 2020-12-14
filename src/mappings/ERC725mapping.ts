@@ -1,3 +1,4 @@
+// this includes handlers
 import { BigInt, Address } from "@graphprotocol/graph-ts"
 import {
   ContractCreated,
@@ -6,8 +7,8 @@ import {
   OwnershipTransferred,
   UniversalReceiver,
   ValueReceived
-} from "../generated/templates/ERC725/ERC725"
-import { ERC725, ERC725DataStore } from "../generated/schema"
+} from "../../generated/templates/ERC725/ERC725"
+import { ERC725, ERC725DataStore } from "../../generated/schema"
 
 export function handleContractCreated(event: ContractCreated): void {
 

@@ -5,6 +5,9 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ robertdavid010/test-subgraph-4",
+    "create-dev": "graph create --node http://35.242.252.65:8020/ robertdavid010/test-subgraph-4",
+    "remove-dev": "graph remove --node http://35.242.252.65:8020/ robertdavid010/test-subgraph-4",
+    "deploy-dev": "graph deploy --node http://35.242.252.65:8020/ --ipfs https://api.thegraph.com/ipfs/ robertdavid010/test-subgraph-4",
     "create-local": "graph create --node http://localhost:8020/ robertdavid010/test-subgraph-4",
     "remove-local": "graph remove --node http://localhost:8020/ robertdavid010/test-subgraph-4",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 robertdavid010/test-subgraph-4"
