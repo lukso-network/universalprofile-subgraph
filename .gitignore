@@ -1,1 +1,6 @@
-node_modules
+# file originally taken from https://github.com/Uniswap/uniswap-v2-subgraph/blob/master/.gitignore
+build/
+node_modules/
+src/types/
+.DS_STORE
+yarn-error.log
