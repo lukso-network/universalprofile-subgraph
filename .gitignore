@@ -3,5 +3,7 @@ node_modules/
 build/
 generated/
 # src/types/
+.vscode/
 .DS_STORE
 yarn-error.log
+*.code-workspace
